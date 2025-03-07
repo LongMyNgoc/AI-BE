@@ -1,10 +1,11 @@
 import random
 from nltk.tokenize import word_tokenize
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from transformers import AutoModelForSeq2SeqLM
+from transformers import T5Tokenizer
 
 # Tải mô hình T5
 model_name = "valhalla/t5-small-qg-prepend"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+tokenizer = T5Tokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
 def extract_answer(context):
