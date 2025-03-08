@@ -2,8 +2,13 @@ import random
 from collections import Counter
 import spacy
 
-# Load spaCy model
-nlp = spacy.load("en_core_web_sm")
+# Kiểm tra và tải mô hình nếu chưa có
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    import spacy.cli
+    spacy.cli.download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 def generate_mcqs(text, num_questions=5):
     doc = nlp(text)
