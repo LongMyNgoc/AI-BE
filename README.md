@@ -31,8 +31,8 @@ python run.py
 Hệ thống sẽ chạy trên **localhost**, bạn có thể truy cập bằng trình duyệt để kiểm tra giao diện và tính năng.
 
 ## Liên kết hệ thống
-- **Back-End (GitHub)**: https://github.com/LongMyNgoc/AI-React-BE.git
-- **Front-End (GitHub)**: https://github.com/LongMyNgoc/AI-React.git
+- **Back-End (GitHub)**: https://github.com/LongMyNgoc/Multiple-choice-question-generation-system-BE.git
+- **Front-End (GitHub)**: https://github.com/LongMyNgoc/Multiple-choice-question-generation-system-FE.git
 - **Front-End (Vercel)**: https://ai-react-eosin.vercel.app/
 
 ## Video chạy chương trình
