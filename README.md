@@ -1,4 +1,11 @@
 # Hệ thống tạo đề thi trắc nghiệm (BACK-END)
+<table align="center">
+  <tr>
+    <td align="center"><img src="https://github.com/LongMyNgoc/Multiple-choice-question-generation-system-FE/blob/main/public/en_core_web_sm.png" width="500"><br>en_core_web_sm</td>
+    <td align="center"><img src="https://github.com/LongMyNgoc/Multiple-choice-question-generation-system-FE/blob/main/public/T5.png" width="500"><br>T5</td>
+    <td align="center"><img src="https://github.com/LongMyNgoc/Multiple-choice-question-generation-system-FE/blob/main/public/BERT.png" width="500"><br>BERT</td>
+  </tr>
+</table>
 
 ## Giới thiệu
 **Hệ thống tạo đề thi trắc nghiệm** là hệ thống tạo đề thi trắc nghiệm điền từ và trắc nghiệm a,b,c,d từ đoạn văn đưa vào bằng mô hình en_core_web_sm, t5 và BERT.
